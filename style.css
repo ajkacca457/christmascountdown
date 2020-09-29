@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playball&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+background-image:url("images/christmas.jpg");
+background-size: cover;
+background-position: center center;
+height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  text-shadow: 2px 2px 5px orange;
+  margin: auto;
+  background-color:rgba(41, 75, 122, 0.78);
+  padding: 2%;
+  border: 2px white solid;
+  border-radius: 5px;
+}
+
+.title {
+  font-family: 'Playball', cursive;
+  color:white;
+  font-size: 250%;
+  text-shadow: 2px 2px 5px orange;
+  width: 60%;
+  margin:10vh auto;
+  text-align: center;
+}
+
+
+.display{
+  font-size:120px;
+}
+
+span {
+  font-size:20px;
+}
+
+
+
+@media only screen and (max-width:1023px) and (min-width: 769px)  {
+
+  .display{
+    font-size:80px;
+  }
+
+  span {
+    font-size:15px;
+  }
+
+}
+
+
+
+ @media only screen and (max-width: 768px) {
+
+   .display{
+     font-size:50px;
+   }
+
+   span {
+     font-size:15px;
+   }
+
+ }
