@@ -2,7 +2,7 @@
 
 This is a javascript project to create a object oriented christmas countdown clock that shows the remaining time and date until christmas. I used the date object to calculate the remaining time for christmas.
 
-<img src="picture1.PNG" alt="projectimg">
+<img src="images/picture1.PNG" alt="projectimg">
 
 </h1>Additional description about the project and its features.</h1>
 
